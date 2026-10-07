@@ -1,3 +1,5 @@
+#create a stage in the set file path and print the stage to the console
+
 from pxr import Usd
 
 #Define a filepath name
