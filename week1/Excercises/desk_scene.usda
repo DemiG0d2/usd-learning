@@ -1,0 +1,169 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "World"
+{
+    def Xform "Desk"
+    {
+        def Cube "Top"
+        {
+            color3f[] primvars:displayColor = [(0.55, 0.38, 0.2)]
+            double size = 1
+            float3 xformOp:scale = (1.2, 0.04, 0.7)
+            double3 xformOp:translate = (0, 0.73, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Cube "Leg0"
+        {
+            color3f[] primvars:displayColor = [(0.4, 0.28, 0.15)]
+            double size = 1
+            float3 xformOp:scale = (0.05, 0.71, 0.05)
+            double3 xformOp:translate = (-0.55, 0.355, -0.3)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Cube "Leg1"
+        {
+            color3f[] primvars:displayColor = [(0.4, 0.28, 0.15)]
+            double size = 1
+            float3 xformOp:scale = (0.05, 0.71, 0.05)
+            double3 xformOp:translate = (0.55, 0.355, -0.3)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Cube "Leg2"
+        {
+            color3f[] primvars:displayColor = [(0.4, 0.28, 0.15)]
+            double size = 1
+            float3 xformOp:scale = (0.05, 0.71, 0.05)
+            double3 xformOp:translate = (-0.55, 0.355, 0.3)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Cube "Leg3"
+        {
+            color3f[] primvars:displayColor = [(0.4, 0.28, 0.15)]
+            double size = 1
+            float3 xformOp:scale = (0.05, 0.71, 0.05)
+            double3 xformOp:translate = (0.55, 0.355, 0.3)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+    }
+
+    def Xform "Items"
+    {
+        def Cube "Book0"
+        {
+            color3f[] primvars:displayColor = [(0.2, 0.4, 0.7)]
+            double size = 1
+            float3 xformOp:scale = (0.2, 0.03, 0.15)
+            double3 xformOp:translate = (-0.45, 0.765, -0.2)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Cube "Book1"
+        {
+            color3f[] primvars:displayColor = [(0.2, 0.45, 0.7)]
+            double size = 1
+            float3 xformOp:scale = (0.2, 0.04, 0.15)
+            double3 xformOp:translate = (-0.15000000000000002, 0.77, -0.2)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Cube "Book2"
+        {
+            color3f[] primvars:displayColor = [(0.2, 0.5, 0.7)]
+            double size = 1
+            float3 xformOp:scale = (0.2, 0.05, 0.15)
+            double3 xformOp:translate = (0.14999999999999997, 0.775, -0.2)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Cube "Book3"
+        {
+            color3f[] primvars:displayColor = [(0.2, 0.55, 0.7)]
+            double size = 1
+            float3 xformOp:scale = (0.2, 0.03, 0.15)
+            double3 xformOp:translate = (0.4499999999999999, 0.765, -0.2)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Cube "Book4"
+        {
+            color3f[] primvars:displayColor = [(0.2, 0.4, 0.7)]
+            double size = 1
+            float3 xformOp:scale = (0.2, 0.04, 0.15)
+            double3 xformOp:translate = (-0.45, 0.77, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Cube "Book5"
+        {
+            color3f[] primvars:displayColor = [(0.2, 0.45, 0.7)]
+            double size = 1
+            float3 xformOp:scale = (0.2, 0.05, 0.15)
+            double3 xformOp:translate = (-0.15000000000000002, 0.775, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Cube "Book6"
+        {
+            color3f[] primvars:displayColor = [(0.2, 0.5, 0.7)]
+            double size = 1
+            float3 xformOp:scale = (0.2, 0.03, 0.15)
+            double3 xformOp:translate = (0.14999999999999997, 0.765, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Cube "Book7"
+        {
+            color3f[] primvars:displayColor = [(0.2, 0.55, 0.7)]
+            double size = 1
+            float3 xformOp:scale = (0.2, 0.04, 0.15)
+            double3 xformOp:translate = (0.4499999999999999, 0.77, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Cube "Book8"
+        {
+            color3f[] primvars:displayColor = [(0.2, 0.4, 0.7)]
+            double size = 1
+            float3 xformOp:scale = (0.2, 0.05, 0.15)
+            double3 xformOp:translate = (-0.45, 0.775, 0.2)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Cube "Book9"
+        {
+            color3f[] primvars:displayColor = [(0.2, 0.45, 0.7)]
+            double size = 1
+            float3 xformOp:scale = (0.2, 0.03, 0.15)
+            double3 xformOp:translate = (-0.15000000000000002, 0.765, 0.2)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Cube "Book10"
+        {
+            color3f[] primvars:displayColor = [(0.2, 0.5, 0.7)]
+            double size = 1
+            float3 xformOp:scale = (0.2, 0.04, 0.15)
+            double3 xformOp:translate = (0.14999999999999997, 0.77, 0.2)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Cube "Book11"
+        {
+            color3f[] primvars:displayColor = [(0.2, 0.55, 0.7)]
+            double size = 1
+            float3 xformOp:scale = (0.2, 0.05, 0.15)
+            double3 xformOp:translate = (0.4499999999999999, 0.775, 0.2)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+    }
+}
+
